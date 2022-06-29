@@ -15,7 +15,7 @@ public func CodeExecutionFunc() {
     
     var mouse_4 = Mouse()
     
-    let miceArray: [Mouse] = [mouse_1, mouse_2, mouse_3]
+    let miceArray = [mouse_1, mouse_2, mouse_3]
     
     var bigRedCat = Cat()
     
