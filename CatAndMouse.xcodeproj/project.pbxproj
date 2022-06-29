@@ -15,6 +15,7 @@
 		633F53F3286CE12700CD9555 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633F53F1286CE12700CD9555 /* LaunchScreen.storyboard */; };
 		633F53FB286CE14B00CD9555 /* CatAndMouseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633F53FA286CE14B00CD9555 /* CatAndMouseClass.swift */; };
 		633F53FD286CE17D00CD9555 /* CodeExecutionFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633F53FC286CE17D00CD9555 /* CodeExecutionFunc.swift */; };
+		633F53FF286D0DC400CD9555 /* CatAndOject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633F53FE286D0DC400CD9555 /* CatAndOject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		633F53F4286CE12700CD9555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		633F53FA286CE14B00CD9555 /* CatAndMouseClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatAndMouseClass.swift; sourceTree = "<group>"; };
 		633F53FC286CE17D00CD9555 /* CodeExecutionFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeExecutionFunc.swift; sourceTree = "<group>"; };
+		633F53FE286D0DC400CD9555 /* CatAndOject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatAndOject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 		633F53DA286CE12500CD9555 = {
 			isa = PBXGroup;
 			children = (
+				633F53FE286D0DC400CD9555 /* CatAndOject.swift */,
 				633F53FC286CE17D00CD9555 /* CodeExecutionFunc.swift */,
 				633F53FA286CE14B00CD9555 /* CatAndMouseClass.swift */,
 				633F53E5286CE12500CD9555 /* CatAndMouse */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				633F53FF286D0DC400CD9555 /* CatAndOject.swift in Sources */,
 				633F53EB286CE12500CD9555 /* ViewController.swift in Sources */,
 				633F53E7286CE12500CD9555 /* AppDelegate.swift in Sources */,
 				633F53E9286CE12500CD9555 /* SceneDelegate.swift in Sources */,
