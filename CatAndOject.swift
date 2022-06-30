@@ -15,7 +15,24 @@ public class BigCat {
     
     public func killMice(miceArray: [Mouse]) {
         for i in 0...miceArray.count-1 {
+            
             miceArray[i].killMouse()
         }
     }
+}
+
+public class Object {
+    
+}
+
+public class LittleMouse : Object {
+    
+}
+
+public class LittleBlackMouse : LittleMouse {
+    
+}
+
+public class Cheese : Object {
+    
 }
