@@ -36,3 +36,33 @@ public class LittleBlackMouse : LittleMouse {
 public class Cheese : Object {
     
 }
+
+
+public func castingExample(){
+    print("_____Showing casting example_____")
+    var elements = [Object(), LittleMouse(), LittleBlackMouse(), D()]
+    
+    
+    for element in elements{
+        switch element{
+        case let obj as D:
+            print("element is D")
+            obj.dClass()
+            break
+        case let obj as C:
+            print("element is C")
+            obj.cClass()
+            break
+        case let obj as B:
+            print("element is B")
+            obj.bClass()
+            break
+        case let obj as A:
+            print("element is A")
+            obj.aClass()
+            break
+        default:
+            print("unknown type")
+        }
+    }
+    
