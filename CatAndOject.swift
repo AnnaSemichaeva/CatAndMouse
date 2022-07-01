@@ -22,23 +22,31 @@ public class BigCat {
 }
 
 public class Object {
-    
+    public func object(){
+        print("baseClass")
+    }
 }
 
 public class LittleMouse : Object {
-    
+    public func aClass(){
+        print("aClass")
+    }
 }
 
 public class LittleBlackMouse : LittleMouse {
-    
+    public func bClass(){
+        print("bClass")
+    }
 }
 
 public class Cheese : Object {
-    
+    public func cClass(){
+        print("cClass")
+    }
 }
 
 
-public func castingExample(){
+public func castingExample_1(){
     print("_____Showing casting example_____")
     var elements = [Object(), LittleMouse(), LittleBlackMouse(), Cheese()]
     
@@ -47,38 +55,41 @@ public func castingExample(){
         switch element{
         case let obj as Cheese:
             print("element is D")
-            obj.dClass()
+            obj.cClass()
             break
         case let obj as LittleBlackMouse:
             print("element is C")
-            obj.cClass()
+            obj.bClass()
             break
         case let obj as LittleMouse:
             print("element is B")
-            obj.bClass()
+            obj.aClass()
             break
         case let obj as Object:
             print("element is A")
-            obj.aClass()
+            obj.object()
             break
         default:
             print("unknown type")
         }
     }
     
-    public func castingExample() {
-        var example_B : BaseClass = B()
+}
+    
+    public func castingExample_2() {
+        var example_B : Object = LittleBlackMouse()
         
-        example_B.baseClass()
+        example_B.object()
         //var exampleOfexample_B = example_B as? B
         
-        if example_B is B {
+        if example_B is LittleBlackMouse {
             
-            var exampleOfexamle_B = example_B as! B
+            var exampleOfexamle_B = example_B as! LittleBlackMouse
             exampleOfexamle_B.bClass()
             
-            var Booorechka = exampleOfexamle_B as BaseClass
+            var Booorechka = exampleOfexamle_B as Object
         }
         
         
     }
+
