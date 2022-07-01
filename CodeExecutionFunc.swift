@@ -25,5 +25,5 @@ public func CodeExecutionFunc() {
 //    bigRedCat.killMice(miceArray: miceArray)
     
 //    bigRedCat.eatMouse(mouse: mouse_4)
-    bigRedCat.killMice(miceArray: miceArray)
+//    bigRedCat.killMice(miceArray: miceArray)
 }
