@@ -40,7 +40,7 @@ public class Cheese : Object {
 
 public func castingExample(){
     print("_____Showing casting example_____")
-    var elements = [Object(), LittleMouse(), LittleBlackMouse(), D()]
+    var elements = [Object(), LittleMouse(), LittleBlackMouse(), Cheese()]
     
     
     for element in elements{
