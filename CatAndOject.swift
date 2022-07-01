@@ -66,7 +66,7 @@ public func castingExample(){
         }
     }
     
-    public func castingExample_2() {
+    public func castingExample() {
         var example_B : BaseClass = B()
         
         example_B.baseClass()
