@@ -45,19 +45,19 @@ public func castingExample(){
     
     for element in elements{
         switch element{
-        case let obj as D:
+        case let obj as Cheese:
             print("element is D")
             obj.dClass()
             break
-        case let obj as C:
+        case let obj as LittleBlackMouse:
             print("element is C")
             obj.cClass()
             break
-        case let obj as B:
+        case let obj as LittleMouse:
             print("element is B")
             obj.bClass()
             break
-        case let obj as A:
+        case let obj as Object:
             print("element is A")
             obj.aClass()
             break
