@@ -66,3 +66,19 @@ public func castingExample(){
         }
     }
     
+    public func castingExample_2() {
+        var example_B : BaseClass = B()
+        
+        example_B.baseClass()
+        //var exampleOfexample_B = example_B as? B
+        
+        if example_B is B {
+            
+            var exampleOfexamle_B = example_B as! B
+            exampleOfexamle_B.bClass()
+            
+            var Booorechka = exampleOfexamle_B as BaseClass
+        }
+        
+        
+    }
