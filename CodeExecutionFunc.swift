@@ -26,4 +26,7 @@ public func CodeExecutionFunc() {
     
 //    bigRedCat.eatMouse(mouse: mouse_4)
 //    bigRedCat.killMice(miceArray: miceArray)
+    
+    let nubmer: Float = 9
+    print(nubmer)
 }
