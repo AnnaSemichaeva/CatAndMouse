@@ -19,7 +19,7 @@ public class Cat {
 //        }
 //    }
     public func killMice(miceArray: [Mouse]) {
-        for i in 0..<miceArray.count {
+        for i in 0...miceArray.count-1 {
             miceArray[i].killMouse()
         }
     }
