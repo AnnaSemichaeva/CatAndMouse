@@ -22,10 +22,10 @@ public func CodeExecutionFunc() {
     bigRedCat.eatMouse(mouse: mouse_4)
     bigRedCat.eatMouse(mouse: mouse_1)
     bigRedCat.eatMouse(mouse: Mouse())
-//    bigRedCat.killMice(miceArray: miceArray)
+    bigRedCat.killMice(miceArray: miceArray)
     
-//    bigRedCat.eatMouse(mouse: mouse_4)
-//    bigRedCat.killMice(miceArray: miceArray)
+    bigRedCat.eatMouse(mouse: mouse_4)
+    bigRedCat.killMice(miceArray: miceArray)
     
     let nubmer: Float = 9
     print(nubmer)
